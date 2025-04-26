@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron/main');
 const path = require('node:path');
 
 const createWindow = () => {
@@ -20,6 +20,7 @@ app.on('window-all-closed', () => {
 });
 
 app.whenReady().then(() => {
+    ipcMain.handle('ping', () => 'pong');
     createWindow();
 
     // default behavior on macOS
