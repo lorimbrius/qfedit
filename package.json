@@ -1,0 +1,29 @@
+{
+  "name": "qfedit",
+  "version": "1.0.0",
+  "description": "Quickfort blueprint viewer and editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorimbrius/qfedit.git"
+  },
+  "keywords": [
+    "dwarf",
+    "fortress",
+    "quickfort",
+    "dfhack"
+  ],
+  "author": "Joshua Armstrong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorimbrius/qfedit/issues"
+  },
+  "homepage": "https://github.com/lorimbrius/qfedit#readme",
+  "devDependencies": {
+    "electron": "^35.2.1"
+  }
+}
